@@ -1,0 +1,17 @@
+{
+    "env": {
+        "production": {
+          "plugins": [
+            ["react-remove-properties", {"properties": ["data-test"]}],
+            ["transform-remove-console", { "exclude": [ "error", "warn"] }]
+          ]
+        },
+        "development": {
+          "plugins": [
+          ]
+        }
+    },
+    "presets": [
+      "react-app"
+    ]
+  }
