@@ -143,5 +143,6 @@
       "jest-watch-typeahead/filename",
       "jest-watch-typeahead/testname"
     ]
-  }
+  },
+  "homepage":"/home/evgen/mine/jest_template/build"
 }

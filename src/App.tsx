@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import {connect} from 'react-redux';
 import './App.css';
 
 interface IPropTypes {
@@ -50,4 +51,6 @@ class App<IPropTypes, IStateTypes> extends React.Component {
   }
 }
 
-export default App;
+const mapStateToProps = () => ({a: 1});
+
+export default connect(mapStateToProps)(App);
